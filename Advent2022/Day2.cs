@@ -23,22 +23,22 @@ public class Day2: IPuzzle
         [Moves.Scissors] = (Moves.Paper, Moves.Rock)
     };
 
-    enum Moves
+    private enum Moves
     {
         Rock,
         Paper,
         Scissors
     }
-    
-    internal enum End
+
+    private enum End
     {
         Victory,
         Draw,
         Lost
     }
     
-    private List<string> _rightSide = new();
-    private List<string> _leftSide = new();
+    private readonly List<string> _rightSide = new();
+    private readonly List<string> _leftSide = new();
     
     public void Configure()
     {

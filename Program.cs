@@ -5,6 +5,5 @@ using AdventOfCode.Utils;
 //runner.Run();
 
 Day2 day2 = new();
-day2.Configure();
 Console.WriteLine(day2.RunFirstPuzzle());
 Console.WriteLine(day2.RunSecondPuzzle());
