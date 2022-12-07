@@ -57,7 +57,6 @@ public class Day4 : IPuzzle
         return $"One range fully contains the other in {totalPairs} assignment pairs";
     }
 
-
     public string RunSecondPuzzle()
     {
         int totalPairs = 0;
