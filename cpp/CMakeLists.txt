@@ -14,6 +14,9 @@ add_executable(cpp main.cpp
         2023/Day01/Day01.cpp
         utils/Advent.h
         2023/Advent2023.h
-        utils/Problem.h)
+        utils/Problem.h
+        utils/template/Day0X.cpp
+        2023/Day02/Day02.h
+        2023/Day02/Day02.cpp)
 
 target_link_libraries(cpp fmt CLI11)

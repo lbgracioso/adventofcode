@@ -14,7 +14,7 @@ private:
 public:
     Day01() { m_problemName = "Trebuchet?!"; m_problemYear = 2023; m_problemDay = 1; }
     std::string PartOne() override;
-    std::string PartTwo();
+    std::string PartTwo() override;
 
     std::string cleanInput(bool replaceTextWithNumbers);
 };

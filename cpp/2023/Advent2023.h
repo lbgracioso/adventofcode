@@ -8,11 +8,13 @@
 
 #include "../utils/Advent.h"
 #include "Day01/Day01.h"
+#include "Day02/Day02.h"
 
 class Advent2023 : public Advent {
 public:
     Advent2023() {
         setDay(1, std::make_unique<Day01>());
+        setDay(2, std::make_unique<Day02>());
     }
 };
 
